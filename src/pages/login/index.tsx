@@ -1,7 +1,9 @@
 import React from 'react'
 import { Button } from 'antd'
+import { getUrlParam } from '../../utils/index';
 
 export const Login = () => {
+  console.log(getUrlParam('id'))
   return (
     <div>
       login
