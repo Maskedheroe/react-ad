@@ -1,15 +1,13 @@
-import { useMemo, useState } from "react"
-import styles from './style.module.scss'
+import React from 'react'
 
-function App() {
-  const [state, setState] = useState({ name: "1" })
+interface Props {
+  
+}
+
+export const App = (props: Props) => {
   return (
-    <div className="App">
+    <div>
       123
-      <div>test dev</div>
     </div>
   )
 }
-
-export default App
-    
