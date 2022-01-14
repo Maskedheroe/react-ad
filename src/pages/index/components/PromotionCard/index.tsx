@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react"
 
-export const PromotionCard = () => {
-  return (
-    <div>
-      PromotionCard
-    </div>
-  )
+const PromotionCard = () => {
+  return <div>PromotionCard</div>
 }
+
+export default PromotionCard

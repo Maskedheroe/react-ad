@@ -1,9 +1,11 @@
 import React from 'react'
 
-export const IndexBanner = () => {
+const IndexBanner = () => {
   return (
     <div>
-      indexbanner
+      IndexBanner
     </div>
   )
 }
+
+export default IndexBanner

@@ -1,9 +1,11 @@
 import React from 'react'
 
-export const ProductNews = () => {
+const ProductNews = () => {
   return (
     <div>
-      productnews
+      
     </div>
   )
 }
+
+export default ProductNews
