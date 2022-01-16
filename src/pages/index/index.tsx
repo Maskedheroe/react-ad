@@ -2,14 +2,19 @@ import React, { useEffect } from "react"
 import styles from "./style.module.scss"
 import Header from "../../component/Header/index"
 import Footer from "../../component/Footer/index"
-import Chart from "./components/DataTrend"
+import Chart from "../../component/DataTrend"
 import PromotionCard from "./components/PromotionCard/index"
 import ProductCard from "./components/ProductCard/index"
 import Account from "./components/Account"
 import IndexBanner from "./components/IndexBanner"
 import ProductNews from "./components/ProductNews/index"
+import { useHistory } from 'react-router-dom';
 
-export const IndexPage = () => {
+interface Props {
+
+}
+
+export const IndexPage = (props: Props) => {
   return (
     <div className={styles.index__page}>
       <div className={styles.header}>

@@ -4,6 +4,7 @@ import { HashRouter as Router, withRouter } from "react-router-dom"
 import { IndexPage } from "../pages/index/index"
 import { Login } from "../pages/login"
 import { App } from "../App"
+import SearchPromition from '../pages/searchPromotion/index';
 
 const allRoutes = [
   {
@@ -18,6 +19,12 @@ const allRoutes = [
     component: Login,
     title: "",
   },
+  {
+    path: "/searchPromotion",
+    exact: false,
+    component: SearchPromition,
+    title: ''
+  }
 ]
 
 const AppWrap = withRouter(App)

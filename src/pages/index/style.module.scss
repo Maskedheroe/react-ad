@@ -2,7 +2,7 @@
   .header {
     width: 100%;
     height: 100%;
-  }
+  } 
   .content {
     display: flex;
     width: 1220px;
@@ -15,34 +15,28 @@
       width: 909px;
       .chart_area {
         height: 437px;
-        border: 1px solid red;
       }
       .promotion_card_area {
         height: 100px;
         margin-top: 22px;
-        border: 1px solid red;
       }
       .product_card_area {
         height: 345px;
         margin-top: 22px;
-        border: 1px solid red;
       }
     }
     .right_content {
       width: 288px;
       .account_area {
         height: 267px;
-        border: 1px solid red;
       }
       .index_banner_area {
         height: 148px;
         margin-top: 20px;
-        border: 1px solid red;
       }
       .product_news_area {
         height: 470px;
         margin-top: 20px;
-        border: 1px solid red;
       }
     }
   }
